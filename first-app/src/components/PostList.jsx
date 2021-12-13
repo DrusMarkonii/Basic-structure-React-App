@@ -7,7 +7,7 @@ const PostList = ({posts, title}) => {
             <h1 style={{textAlign:'center'}}>
                 {title}
             </h1>
-            {posts.map(post => 
+            {posts.map(post=> 
             <PostItem post = {post} key = {post.id} />
       )}
      
